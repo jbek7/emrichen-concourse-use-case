@@ -1,0 +1,4 @@
+- name: notify
+  type: slack-notification
+  source:
+    url: ((webhook))

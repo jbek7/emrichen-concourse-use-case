@@ -1,0 +1,12 @@
+- name: project-dev-vanilla
+  type: helm
+  source:
+    release: project-dev-vanilla
+    cluster_url: https://domain.com:6443
+    namespace: pmt
+- name: project-dev-choco
+  type: helm
+  source:
+    release: project-dev-choco
+    cluster_url: https://domain.com:6443
+    namespace: pmt

@@ -1,0 +1,10 @@
+- name: source-dev-vanilla
+  type: git
+  source:
+    uri: git@github.domain.com:org/project
+    branch: develop
+- name: source-dev-choco
+  type: git
+  source:
+    uri: git@github.domain.com:org/project
+    branch: develop

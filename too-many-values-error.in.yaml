@@ -1,0 +1,5 @@
+
+resources: !Merge
+   - !Include ./resources/git-resources.in.yaml
+   - !Include ./resources/helm-resources.in.yaml
+   - !Include ./resources/notify-resource.in.yaml

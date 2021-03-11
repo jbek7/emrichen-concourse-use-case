@@ -1,0 +1,3 @@
+
+resources:
+  !IncludeGlob ./resources/*.in.yaml
